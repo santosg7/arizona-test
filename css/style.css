@@ -1,0 +1,91 @@
+/* header */
+
+.header {
+    background: var(--green);
+}
+
+.header__links .links {
+    color: var(--grey-2);
+}
+
+/* banner */
+
+.banner__home {
+    background-image: url(../images/banner/banner-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 560px;
+}
+
+.banner__home-content {
+    margin-left: 20%;
+}
+
+.banner__home-button-box {
+    margin-top: 30px;
+}
+
+.banner__home-button-box button {
+    border: 2px solid var(--grey-title);
+    background: none;
+    margin-right: 15px;
+}
+
+.banner__footer {
+    background-color: #f3f3f3;
+}
+
+/* section three */
+
+.section__three {
+    background: #faf9f9;
+}
+
+.section__three-content img {
+    margin-right: 15px;
+}
+
+.section__three-content p {
+    font-weight: 600;
+    color: var(--grey-title);
+}
+
+.section__three-content-button-box button {
+    border: 2px solid var(--title-grey);
+    background: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.section__three-content-button-box button:hover {
+    border: 2px solid var(--title-grey);
+    background: var(--title-grey);
+    ;
+    color: #fff;
+}
+
+.features {
+    max-width: 100%;
+}
+
+.features article {
+    flex: 1 0 390px;
+    color: #fff;
+}
+
+.newsletter p {
+    color: #fff;
+}
+
+.newsletter input {
+    border: 0;
+    border-radius: 2px;
+    padding: 15px 10px;
+    outline: 0;
+    width: 300px;
+}
+
+.newsletter input::placeholder {
+    color: var(--green);
+}
