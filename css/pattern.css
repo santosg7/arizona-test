@@ -413,6 +413,10 @@
     width: 100%;
 }
 
+.w-input {
+    width: 300px;
+}
+
 .mw-100 {
     max-width: 100%;
 }
@@ -453,8 +457,27 @@
     line-height: 1.5;
 }
 
+.lh-two {
+    line-height: 2;
+}
+
 /* text position */
 
 .text-center {
     text-align: center;
+}
+
+/*positions*/
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.input-icon {
+    right: 5px;
+    top: 15px;
 }
